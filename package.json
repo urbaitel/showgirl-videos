@@ -2,7 +2,7 @@
   "name": "showgirl-videos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://videos.showgirltemple.com",
+  "homepage": "https://videos.showgirltemple.com",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
