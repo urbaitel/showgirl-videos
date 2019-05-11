@@ -71,7 +71,7 @@ class App extends Component {
             className="form-control"
             id="code"
             aria-describedby="Enter your download code"
-            placeholder="ee1203ab-ae68-4e91-8ad2-032a2111ad6e"
+            placeholder="02790404-016b-463b-87ed-49a1ad29dcee"
             value={this.state.code}
             onChange={this.handleChange}
             />
