@@ -118,9 +118,23 @@ class App extends Component {
       },
       {
         "name": "Final Stretch",
-        "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/Final_Stretch.mp4",
+        "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/final-stretch.mp4",
         "codes": [
           '819d199a-b639-4544-b281-a3c7474b7bcd'
+        ]
+      },
+      {
+        "name": "Burlesque Basics",
+        "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/burlesque-basics.mp4",
+        "codes": [
+          '41785f8d-dd93-45c8-bf28-6725ceffb4db'
+        ]
+      },
+      {
+        "name": "Fantabulous",
+        "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/fantabulous.mp4",
+        "codes": [
+          '1d9a416d-6b0e-45f5-9f45-48a1e364edc1'
         ]
       }
     ];
