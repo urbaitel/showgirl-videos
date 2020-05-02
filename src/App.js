@@ -16,6 +16,19 @@ class App extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  componentDidMount() {
+    const search = window.location.search;
+    const params = new URLSearchParams(search);
+    const code = params.get('code');
+    if (code) {
+      let result = this.validateCode(code);
+      if (result) {
+        this.setState({video: result, message: ''});
+        console.log('Video found', result);
+      }
+    }
+  }
+
   handleChange(event) {
     this.setState({code: event.target.value});
   }
