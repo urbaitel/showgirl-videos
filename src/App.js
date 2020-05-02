@@ -71,7 +71,7 @@ class App extends Component {
             className="form-control"
             id="code"
             aria-describedby="Enter your download code"
-            placeholder="02790404-016b-463b-87ed-49a1ad29dcee"
+            placeholder="wtqj5r"
             value={this.state.code}
             onChange={this.handleChange}
             />
@@ -106,35 +106,35 @@ class App extends Component {
         "name": "Warm Up",
         "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/warmup.mp4",
         "codes": [
-          'f4b8db70-5b17-4ab7-b402-760cc08cc324'
+          'xe3tph'
         ]
       },
       {
         "name": "Bump'N'Grind Workout",
         "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/bump-n-grind-workout.mp4",
         "codes": [
-          'ee1203ab-ae68-4e91-8ad2-032a2111ad6e'
+          'enf6b7'
         ]
       },
       {
         "name": "Final Stretch",
         "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/final-stretch.mp4",
         "codes": [
-          '819d199a-b639-4544-b281-a3c7474b7bcd'
+          'tehv2u'
         ]
       },
       {
         "name": "Burlesque Basics",
         "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/burlesque-basics.mp4",
         "codes": [
-          '41785f8d-dd93-45c8-bf28-6725ceffb4db'
+          '4frz7k'
         ]
       },
       {
         "name": "Fantabulous",
         "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/fantabulous.mp4",
         "codes": [
-          '1d9a416d-6b0e-45f5-9f45-48a1e364edc1'
+          'atyjf2'
         ]
       }
     ];
