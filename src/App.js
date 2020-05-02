@@ -24,7 +24,6 @@ class App extends Component {
       let result = this.validateCode(code);
       if (result) {
         this.setState({video: result, message: ''});
-        console.log('Video found', result);
       }
     }
   }
@@ -39,7 +38,6 @@ class App extends Component {
       this.setState({video: '', message: 'Code not found, please enter again.'});
     } else {
       this.setState({video: result, message: ''});
-      console.log('Video found', result);
     }
     event.preventDefault();
   }
@@ -107,7 +105,7 @@ class App extends Component {
           Video: {this.state.video.name}
         </label>
         <div>
-          <a class="btn btn-primary" href={this.state.video.url} role="button" download>Download It!</a>
+          <a className="btn btn-primary" href={this.state.video.url} role="button" download>Download It!</a>
         </div>
       </div>
     );
