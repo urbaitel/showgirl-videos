@@ -124,7 +124,7 @@ class App extends Component {
         "name": "Bump'N'Grind Workout",
         "url": "https://s3-us-west-2.amazonaws.com/showgirltemple/bump-n-grind-workout.mp4",
         "codes": [
-          'enf6b7'
+          '29fb38'
         ]
       },
       {
